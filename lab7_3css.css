@@ -1,0 +1,206 @@
+@charset "UTF-8";
+html,body{
+	float: left;
+	margin: 0 auto;
+}
+.calcul{
+	
+	border: 1px solid black;
+	border-radius: 5px;
+	overflow: hidden;
+	width: 700px;
+	height: 502px;
+	padding: 5px;
+	background: #E0FFFF;
+	position: fixed;
+	box-shadow: 10px 15px 16px gray;
+	margin: 20px;
+	
+}
+
+
+.headline{
+	margin: 2px;
+}
+.top_menu{
+	width: 95%;
+	height: 10px;
+}
+.buttom_menu{
+	text-align: left;
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0;
+    border: 1px solid black;
+    overflow: hidden;
+    background: white;
+	
+	
+	
+	
+	
+}
+ul.buttom_menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+	text-decoration: none;
+	float: left;
+	
+	
+}	
+ 
+a {	
+	text-decoration: none;
+	color: black;
+	
+}
+a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: white; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #6495ED; /* Цвет фона */
+}
+.fon{
+	background: #E6E6FA;
+    
+    border: 1px solid black;
+    margin: 0px;
+    padding: 5px;
+	border-top: none;
+	
+	
+}
+.empty{
+	background: white;
+    border: 1px solid black;
+    width: 100%;
+    height: 20px;
+    margin: 5px auto;
+	
+}
+
+.numbers{
+	margin: 5px auto;
+    padding-left: 0;
+    border: 1px solid black;
+    width: 100%;
+	/*text-align: center;*/
+	height: 140px;
+	font-family: lucida console;
+}
+.numbers1{
+	width: 284px;
+	float: left;
+	margin: 28px;
+	
+}
+.tab2{
+	margin: 1px 1px 1px 78px;
+	padding:5px;
+	float: left;
+}
+.tab3{
+	margin: 1px 78px 1px 1px;;
+	padding:5px;
+	float: right;
+}
+
+
+	
+/*.numbers1{
+	width: 50px;
+	float: right;
+	margin: 10px;
+}*/
+.lol{
+	width: 30px;
+	height:10px;
+}
+.mode{
+	min-height: 250px;
+    /* float: left; */
+    border: 1px solid black;
+    width: 100%;
+    margin: 5px auto;
+	height: 253px;
+}
+.spisok{
+	float: left;
+	margin: 0px;
+}
+
+/*.spiski{
+	list-style-type: none;
+	margin: 5px;
+	padding-left: 0;
+	border: 1px solid black;
+	width: 74px;
+	
+}*/
+.spiski{
+	width: 100px;
+	float: left;
+	height: 117px;
+	margin: 4px;
+	border: 1px solid black;
+	list-style-type: none;
+	padding-left: 0;
+	/*text-align: center;*/
+}
+
+
+/*.spiski{
+	float: left;
+	width: 100px;
+	height: 100px;
+}*/
+/*.buttons_one{
+	float: right;
+	height: 100px;
+	margin: 0 auto;
+	width: 650px;
+	
+	
+}
+.buttons_two{
+	/*float: right;
+	height: 100px;
+	margin: 0 auto;
+	width: 650px;
+}*/
+
+/*.buttons .but{
+	float: right;
+	margin: 1px;
+	width: calc(100%/40-1px);
+}*/
+.b{
+	color: black;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 20px;
+	width: 46px;
+	height: 30px;
+	margin: 1px;
+	border: 1px solid black;
+	border-radius: 4px;
+	background: linear-gradient(#C0C0C0, white, #C0C0C0);
+}
+.tab1{
+	width: 576px;
+	height: 100px;
+	float: right;
+	margin: 1px;
+	
+}
+.b1{
+	width: 116px;
+}
+.spisok_one{
+	display: block;
+    margin: 14px 17px;
+    text-align: left;
+}
+
