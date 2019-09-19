@@ -1,21 +1,21 @@
 @charset "UTF-8";
 html,body{
-	
-	margin: 0 auto;
+	margin: 0;
+	width: 720px;
+	height: 520px;
 }
+
 .calcul{
-	
 	border: 1px solid black;
 	border-radius: 5px;
 	overflow: hidden;
 	width: 700px;
-	height: 502px;
+	height: 500px;
 	padding: 5px;
 	background: #E0FFFF;
 	position: fixed;
 	box-shadow: 10px 15px 16px gray;
 	margin: 20px;
-	
 }
 
 .headline{
@@ -39,21 +39,20 @@ html,body{
 }
 
 ul.buttom_menu li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
+    display: inline; 
+    margin-right: 5px;
 	text-decoration: none;
 }	
  
 a {	
 	text-decoration: none;
 	color: black;
-	
 }
 
 a:hover {
-    text-decoration: none; /* Убираем подчеркивание */
-    color: white; /* Цвет ссылки при наведении на нее курсора мыши */  
-    background: #6495ED; /* Цвет фона */
+    text-decoration: none;
+    color: white;  
+    background: #6495ED;
 }
 
 .fon{
@@ -62,6 +61,7 @@ a:hover {
     margin: 0px;
     padding: 5px;
 	border-top: none;
+	height: 440px;
 }
 
 .empty{
@@ -93,7 +93,7 @@ a:hover {
 }
 
 .tab3{
-	margin: 1px 78px 1px 1px;;
+	margin: 1px 78px 1px 1px;
 	padding: 5px;
 }
 
@@ -103,11 +103,10 @@ a:hover {
 }
 
 .mode{
-	min-height: 250px;
     border: 1px solid black;
     width: 100%;
     margin: 5px auto;
-	height: 253px;
+	height: 258px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -119,7 +118,7 @@ a:hover {
 
 .spiski{
 	width: 100px;
-	height: 117px;
+	height: 118px;
 	margin: 4px;
 	border: 1px solid black;
 	list-style-type: none;
@@ -127,28 +126,25 @@ a:hover {
 }
 
 .b{
-	color: black;
-    padding: 4px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-	width: 46px;
-	height: 30px;
-	margin: 1px;
-	border: 1px solid black;
+	width: 65px;
+	height: 38px;
 	border-radius: 4px;
-	background: linear-gradient(#C0C0C0, white, #C0C0C0);
+	background: linear-gradient(#A9A9A9, white, #A9A9A9);
+	outline: 0;
+	font-weight: bolder;
+}
+.c{
+	height: 78px;
 }
 
 .tab1{
 	width: 576px;
 	height: 100px;
 	margin: 1px;
-	
 }
 
 .b1{
-	width: 116px;
+	width: 138px;
 }
 
 .spisok_one{
